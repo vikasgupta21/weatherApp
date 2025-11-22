@@ -2,9 +2,9 @@ import WeatherSkeleton from '@/components/loading-skeleton';
 import { Button } from '@/components/ui/button';
 import { useGeoLocation } from '@/hooks/use-geolocation';
 import { AlertTriangle, MapPin, RefreshCw } from 'lucide-react';
-import React from 'react'
 
-import { AlertCircleIcon, CheckCircle2Icon, PopcornIcon } from "lucide-react"
+
+import { AlertCircleIcon, CheckCircle2Icon} from "lucide-react"
 import {
   Alert,
   AlertDescription,

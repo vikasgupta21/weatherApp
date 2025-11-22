@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 import Layout from './components/layout';
-import { Button } from './components/ui/button';
+
 import { ThemeProvider } from './context/theme-provider';
 import WeatherDashboard from './pages/weather-dashboard';
 import CityPage from './pages/city-page';
@@ -9,7 +9,6 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import {
   QueryClient,
   QueryClientProvider,
-  useQuery,
 } from '@tanstack/react-query'
 
 const queryClient = new QueryClient({

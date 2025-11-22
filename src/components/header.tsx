@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Link } from 'react-router'
 import { ModeToggle } from './mode-toggle'
 import { CitySearch } from './city-search'
